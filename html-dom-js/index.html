@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM JS</title>
+</head>
+
+<body>
+    <h1>HTML DOM JS Projekts</h1>
+    <input type="text" id="teksts" placeholder="Rakstīt šeit">
+    <button id="poga">Nospied mani</button>
+    <script>
+        console.log("Markuss");
+
+        function printName() {
+            console.log("Markuss");
+        }
+
+        const button = document.getElementById("poga");
+        button.addEventListener("click", function () {
+        });
+
+        button.addEventListener("click", function () {
+            const inputField = document.getElementById("teksts");
+            console.log(inputField.value);
+        });
+    </script>
+</body>
+
+</html>
